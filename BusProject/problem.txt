@@ -1,0 +1,37 @@
+
+调式的bug:
+    1、第一次上车的人数  int max = Math.max(bus.getCurrentPeopleNum(), bus.getMax_capacity());
+        没有设置好
+        当前车上的人数是为0，最大乘客量随机
+        但是第二次之后 ，就会发生改变，
+        //修改之后的
+        int num = bus.getMax_capacity()-bus.getCurrentPeopleNum();
+
+
+    2、第一次是不下车的，在第二次的人上车之前就应该判断一下，此人能不能上车，车上的人员是否满员
+
+    3、调用下车方法的时候，老是出现一下bug：
+
+        Exception in thread "main" java.util.ConcurrentModificationException
+        	at java.util.ArrayList$Itr.checkForComodification(ArrayList.java:911)
+        	at java.util.ArrayList$Itr.next(ArrayList.java:861)
+        	at bus.Bus.getOff(Bus.java:106)
+        	at TestBusSystem.main(TestBusSystem.java:130)
+
+    解决办法:   -------->   使用迭代器
+
+        原因是在遍历集合的时候，又对集合进行了需修改，导致里面的modCount发生改变
+
+        使用迭代器重新声明一个变量，复制一份给它，就解决问题了
+
+
+    4、下车bug：
+        每次下车的时候人数统计有问题
+
+        当车辆行驶到某个站(接近终点站)时 打印的下车人数每一站都不会变
+
+        解决完毕:
+            每次有人到站的时候要将车上人数更新，然后遍历车上的所有人，有人下车就把OffNum++，打印OffNum，然后车辆起步，更新OffSum为0
+
+
+

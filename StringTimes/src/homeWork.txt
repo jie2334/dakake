@@ -1,0 +1,9 @@
+1、请说说HashSet的实现原理
+    hashSet  使用hash计算出唯一的hash值，用hashMap实现，将键值对存入，不允许添加重复的元素，没有顺序的
+2、请说说ArrayList和LinkedList的区别
+    ArrayList是使用数组实现的，是一段连续的空间；
+    LinkedList是无序的，内部使用链表实现，通过指针指向前一个和后一个元素。
+3、请说说你常用的集合框架
+    Collections  一个集合框架里面封装了很多对集合的方法，比如说排序sort()
+4、请说说Hashtable的实现原理
+    最开始会创建默认大小的数组存储数据，再计算hash，实现唯一性

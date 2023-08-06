@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/BusNewSystem/BusNewSystem.iml" filepath="$PROJECT_DIR$/BusNewSystem/BusNewSystem.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BusProject/BusProject.iml" filepath="$PROJECT_DIR$/BusProject/BusProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DataStructure/DataStructure.iml" filepath="$PROJECT_DIR$/DataStructure/DataStructure.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EmptyDemo/EmptyDemo.iml" filepath="$PROJECT_DIR$/EmptyDemo/EmptyDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exception/Exception.iml" filepath="$PROJECT_DIR$/Exception/Exception.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ExceptionProject/ExceptionProject.iml" filepath="$PROJECT_DIR$/ExceptionProject/ExceptionProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FileStudy/FileStudy.iml" filepath="$PROJECT_DIR$/FileStudy/FileStudy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FileWork/FileWork.iml" filepath="$PROJECT_DIR$/FileWork/FileWork.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LibraryManager/LibraryManager.iml" filepath="$PROJECT_DIR$/LibraryManager/LibraryManager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ProcessAndThread/ProcessAndThread.iml" filepath="$PROJECT_DIR$/ProcessAndThread/ProcessAndThread.iml" />
+      <module fileurl="file://$PROJECT_DIR$/StringTimes/StringTimes.iml" filepath="$PROJECT_DIR$/StringTimes/StringTimes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ThreadGossip/ThreadGossip.iml" filepath="$PROJECT_DIR$/ThreadGossip/ThreadGossip.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ThreadWork/ThreadWork.iml" filepath="$PROJECT_DIR$/ThreadWork/ThreadWork.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/dakake.iml" filepath="$PROJECT_DIR$/.idea/dakake.iml" />
+    </modules>
+  </component>
+</project>
