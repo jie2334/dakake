@@ -10,6 +10,7 @@
       <module fileurl="file://$PROJECT_DIR$/ExceptionProject/ExceptionProject.iml" filepath="$PROJECT_DIR$/ExceptionProject/ExceptionProject.iml" />
       <module fileurl="file://$PROJECT_DIR$/FileStudy/FileStudy.iml" filepath="$PROJECT_DIR$/FileStudy/FileStudy.iml" />
       <module fileurl="file://$PROJECT_DIR$/FileWork/FileWork.iml" filepath="$PROJECT_DIR$/FileWork/FileWork.iml" />
+      <module fileurl="file://$PROJECT_DIR$/InvokeAndAnnotation/InvokeAndAnnotation.iml" filepath="$PROJECT_DIR$/InvokeAndAnnotation/InvokeAndAnnotation.iml" />
       <module fileurl="file://$PROJECT_DIR$/LibraryManager/LibraryManager.iml" filepath="$PROJECT_DIR$/LibraryManager/LibraryManager.iml" />
       <module fileurl="file://$PROJECT_DIR$/ProcessAndThread/ProcessAndThread.iml" filepath="$PROJECT_DIR$/ProcessAndThread/ProcessAndThread.iml" />
       <module fileurl="file://$PROJECT_DIR$/StringTimes/StringTimes.iml" filepath="$PROJECT_DIR$/StringTimes/StringTimes.iml" />
