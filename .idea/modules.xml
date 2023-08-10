@@ -14,6 +14,7 @@
       <module fileurl="file://$PROJECT_DIR$/Java8New/Java8New.iml" filepath="$PROJECT_DIR$/Java8New/Java8New.iml" />
       <module fileurl="file://$PROJECT_DIR$/LibraryManager/LibraryManager.iml" filepath="$PROJECT_DIR$/LibraryManager/LibraryManager.iml" />
       <module fileurl="file://$PROJECT_DIR$/ProcessAndThread/ProcessAndThread.iml" filepath="$PROJECT_DIR$/ProcessAndThread/ProcessAndThread.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Review/Review.iml" filepath="$PROJECT_DIR$/Review/Review.iml" />
       <module fileurl="file://$PROJECT_DIR$/StringTimes/StringTimes.iml" filepath="$PROJECT_DIR$/StringTimes/StringTimes.iml" />
       <module fileurl="file://$PROJECT_DIR$/ThreadGossip/ThreadGossip.iml" filepath="$PROJECT_DIR$/ThreadGossip/ThreadGossip.iml" />
       <module fileurl="file://$PROJECT_DIR$/ThreadWork/ThreadWork.iml" filepath="$PROJECT_DIR$/ThreadWork/ThreadWork.iml" />

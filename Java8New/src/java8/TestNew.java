@@ -2,12 +2,10 @@ package java8;
 
 import org.junit.Test;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Objects;
-import java.util.Optional;
+import java.util.*;
 import java.util.function.Function;
 import java.util.function.Predicate;
+import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 /**
@@ -69,6 +67,19 @@ public class TestNew {
 
         /*测试map*/
         list.stream().map((Function<Integer, String>) index -> String.valueOf(index * index)).forEach(System.out::println);
+
+        System.out.println("=========================");
+        list.stream().limit(3).forEach(System.out::println);
+
+        System.out.println("=========================");
+        Integer integer = list.stream().findFirst().get();
+        System.out.println("integer = " + integer);
+        System.out.println("=========================");
+        /*测试sort方法*/
+        /*从大到小排列*/
+        /*测试集合*/
+        List<Integer> collect = list.stream().sorted((o1, o2) -> o2 - o1).collect(Collectors.toList());
+        System.out.println("collect = " + collect);
 
 
     }
