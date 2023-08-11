@@ -9,8 +9,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="TestMaven" />
         <module name="InvokeString" />
+        <module name="ExamTest" />
+        <module name="TestMaven" />
         <module name="XmlLearn" />
       </profile>
     </annotationProcessing>
