@@ -13,6 +13,7 @@
         <module name="ExamTest" />
         <module name="TestMaven" />
         <module name="XmlLearn" />
+        <module name="JavaWeb" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
