@@ -65,8 +65,6 @@ public class BorrowDaoImpl implements BorrowDao {
     public boolean addBorrowList(List<Borrow> borrows) {
         String sql = "insert into borrow values(?,?,?,?,?)";
 
-
-
         boolean execute = false;
         try{
             Connection connection = DruidUtils.getDataSource().getConnection();
