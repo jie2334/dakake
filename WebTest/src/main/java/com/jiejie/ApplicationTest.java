@@ -7,6 +7,6 @@ package com.jiejie;
  **/
 public class ApplicationTest {
     public static void main(String[] args) {
-        System.out.println("jeijie");
+        System.out.println("这里是卢本伟广场!");
     }
 }
