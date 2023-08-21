@@ -8,7 +8,7 @@ import java.io.InputStream;
 import java.util.Properties;
 
 /**
- * @description: 测试druid连接池 执行CRUD
+ * @description: 测试druid连接池
  * @author: 22783
  * @date: 2023/8/17
  **/
