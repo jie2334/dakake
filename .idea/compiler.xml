@@ -11,14 +11,16 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="InvokeString" />
+        <module name="WebTest" />
         <module name="ExamTest" />
         <module name="TestMaven" />
         <module name="XmlLearn" />
-        <module name="JavaWeb" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="JavaWeb" target="1.8" />
       <module name="test" target="1.8" />
+      <module name="TestJDBC" target="1.8" />
       <module name="UnitTest" target="1.8" />
     </bytecodeTargetLevel>
   </component>

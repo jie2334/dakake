@@ -18,6 +18,7 @@
       <module fileurl="file://$PROJECT_DIR$/StringTimes/StringTimes.iml" filepath="$PROJECT_DIR$/StringTimes/StringTimes.iml" />
       <module fileurl="file://$PROJECT_DIR$/ThreadGossip/ThreadGossip.iml" filepath="$PROJECT_DIR$/ThreadGossip/ThreadGossip.iml" />
       <module fileurl="file://$PROJECT_DIR$/ThreadWork/ThreadWork.iml" filepath="$PROJECT_DIR$/ThreadWork/ThreadWork.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WebTest.iml" filepath="$PROJECT_DIR$/WebTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/dakake.iml" filepath="$PROJECT_DIR$/.idea/dakake.iml" />
     </modules>
   </component>
